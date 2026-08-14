@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<!--
+=============================================================
+YAR ZAR HEIN — EDITABLE PORTFOLIO
+=============================================================
+QUICK EDIT:
+1. Text: search this index.html for the words you want to change.
+2. Photos: put new photos in images/projects/
+3. Certificates: put certificate images in images/certificates/
+4. Logos: put logos in images/logos/
+5. Change a photo by changing src="images/projects/PHOTO.jpg"
+6. CSS/design is in css/style.css
+7. Buttons/gallery behavior is in js/main.js
+
+IMPORTANT:
+- Keep index.html + css + js + images folders together.
+- Do not rename folders unless you also change their paths in index.html.
+=============================================================
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Yar Zar Hein — Senior Civil &amp; Structural Site Engineer</title>
+<meta content="Engineering portfolio of Yar Zar Hein — civil, structural, foundation, piling, site execution and project coordination experience." name="description"/>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<nav><div class="container nav"><div class="brand">YAR ZAR HEIN</div><div class="navlinks"><a href="#about">Profile</a><a href="#capabilities">Expertise</a><a href="#projects">Projects</a><a href="#career">Experience</a><a href="#software">Software</a><a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#recommendations">References</a><a href="#awards">Awards</a><a href="#contact">Contact</a></div></div></nav>
+<!-- ================= EDIT: HERO / PROFILE ================= -->
+<header class="hero"><div class="container hero-grid">
+<div><span class="eyebrow">Engineering Portfolio</span><h1>Yar Zar Hein</h1><div class="role">Senior Civil &amp; Structural Site Engineer</div><p class="hero-value">Foundation &amp; Piling • Structural Execution • QA/QC • Planning &amp; Coordination</p>
+<p class="lead">Civil &amp; structural site engineer with 9+ years of hands-on experience across industrial, heavy-foundation, warehouse and high-end residential projects in Myanmar and Thailand.</p>
+<div class="hero-doc-actions"><div class="hero-doc-links">
+<a class="hero-doc-btn" href="documents/Yar_Zar_Hein_Resume.pdf" rel="noopener" target="_blank">Resume</a>
+<a class="hero-doc-btn" href="documents/Yar_Zar_Hein_Portfolio.pdf" rel="noopener" target="_blank">Portfolio</a>
+</div></div></div>
+<div><img alt="Yar Zar Hein profile photo" class="hero-photo" src="images/profile/profile_photo.png"/></div>
+</div></header><section class="about-scan" id="about">
+<div class="container">
+<div class="section-heading-center">
+<span class="eyebrow">01 — Profile</span>
+<h2>Professional Profile</h2>
+</div>
+<div class="about-grid">
+<div class="about-copy">
+<p>Experienced in civil, structural, piling, reinforced-concrete and finishing works from early construction through handover.</p>
+<p>Strong in subcontractor coordination, work sequencing, inspection, technical documentation and progress control.</p>
+<p>Collaborative, safety-focused and comfortable working across clients, consultants, contractors and site teams.</p>
+</div>
+<div class="stat-grid">
+<article class="stat-card"><strong>9+</strong><span>Years of Engineering Experience</span></article>
+<article class="stat-card"><strong>773</strong><span>Bored Piles — Sagaing Fuel Ethanol</span></article>
+<article class="stat-card"><strong>2,204</strong><span>Pile Points — Emerald Brewery</span></article>
+<article class="stat-card"><strong>2 Countries</strong><span>Myanmar &amp; Thailand Project Exposure</span></article>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= EDIT: CAPABILITIES ================= -->
+<section id="capabilities">
+<div class="container">
+<div class="section-heading-center">
+<span class="eyebrow">02 — Expertise</span>
+<h2>Core Expertise</h2>
+</div>
+<div class="expertise-grid">
+<article class="expertise-card"><h3>Foundation &amp; Piling</h3><p>Bored piles, pile testing, foundations, excavation and temporary support works.</p></article>
+<article class="expertise-card"><h3>Civil &amp; Structural</h3><p>RC works, reinforcement, formwork, concrete and structural site execution.</p></article>
+<article class="expertise-card"><h3>Site Coordination</h3><p>Daily work fronts, subcontractors, plant, access, sequencing and interfaces.</p></article>
+<article class="expertise-card"><h3>QA/QC &amp; Handover</h3><p>Inspections, pre-pour checks, snagging, rectification and handover support.</p></article>
+<article class="expertise-card"><h3>Planning &amp; Progress</h3><p>Construction planning, schedules, progress monitoring and recovery coordination.</p></article>
+<article class="expertise-card"><h3>BIM &amp; Digital</h3><p>AutoCAD, Revit, Twinmotion, Primavera P6, MS Project and technical documentation.</p></article>
+</div>
+</div>
+</section>
+<section id="projects"><div class="container">
+<div class="section-heading-center">
+<span class="eyebrow">03 — Projects</span>
+<h2>Selected Projects</h2>
+</div>
+<div class="projects"><article class="project-card" onclick="openProject('byt')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('images/projects/byt_cover.jpg')"></div>
+<div class="project-card-body"><span class="tag">Thailand · Luxury Residential</span><h3>Banyan Tree Residences Phuket</h3><p>Site Engineer / Project Coordinator</p><span class="view">View project evidence →</span></div>
+</article>
+<article class="project-card" onclick="openProject('hei')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('images/projects/hei_cover_final.jpg')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Industrial / Brewery</span><h3>Heineken Expansion — C404</h3><p>Project Engineer</p><span class="view">View project evidence →</span></div>
+</article>
+<article class="project-card" onclick="openProject('sag')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('images/projects/sag_progress_01.jpg')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Heavy Industrial</span><h3>Sagaing Fuel Ethanol Factory</h3><p>Project Engineer</p><span class="view">View project evidence →</span></div>
+</article>
+<article class="project-card" onclick="openProject('em')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('images/projects/em_overall_01.jpg')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Industrial Brewery</span><h3>Emerald Brewery Myanmar — Chang Beer</h3><p>Project Engineer · Main-Contractor-Side Planning &amp; Coordination</p><span class="view">View project evidence →</span></div>
+</article>
+<article class="project-card" onclick="openProject('geo')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('images/projects/geo_02.jpg')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Specialist Foundation Testing</span><h3>GEOLAB — Bored Pile Testing Experience</h3><p>Bored Pile Testing Engineer · Thanlyin Star City Condominium</p><span class="view">View project evidence →</span></div>
+</article>
+<article class="project-card" onclick="openProject('glass')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('assets/projects/thanlyin-glass-factory/05-thanlyin-glass-factory.png')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Industrial</span><h3>Thanlyin Glass Factory</h3><p>Assistant Project Engineer</p><span class="view">View project evidence →</span></div></article>
+<article class="project-card" onclick="openProject('makro')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('assets/projects/makro-myanmar/photos/01-cover-completed-makro.png')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Warehouse &amp; Retail</span><h3>Makro Myanmar</h3><p>Civil Engineer</p><span class="view">View project evidence →</span></div></article>
+<article class="project-card" onclick="openProject('maxx')" role="button" tabindex="0">
+<div class="project-card-img" style="background-image:url('assets/projects/maxxcare-warehouse/photos/01-cover-completed-maxxcare.png')"></div>
+<div class="project-card-body"><span class="tag">Myanmar · Warehouse &amp; Distribution</span><h3>Maxxcare Warehouse &amp; Distribution Center</h3><p>Civil Site Engineer</p><span class="view">View project evidence →</span></div></article>
+</div>
+</div>
+</section>
+<section id="career"><div class="container">
+<div class="section-heading-center">
+<span class="eyebrow">04 — Experience</span>
+<h2>Professional Experience</h2>
+</div>
+<div class="career">
+<div class="career-card"><time>May 2026 — Present</time><div>
+<h3>Professional Development</h3>
+<div class="pd-block">
+<h4>BIM Spark — Autodesk Authorized Training Center</h4>
+<div class="pd-row"><span>Revit Architecture &amp; Structure — Basic to Advanced</span><button class="course-view-btn" onclick="openLightbox('images/course_outlines/bimsparks_bas01.jpg')" type="button">View Course Outline</button></div>
+<div class="pd-row"><span>Twinmotion — Digital Presentation</span><button class="course-view-btn" onclick="openLightbox('images/course_outlines/bimsparks_dpc01.jpg')" type="button">View Course Outline</button></div>
+</div>
+<div class="pd-block">
+<h4>AKT Training Center</h4>
+<div class="pd-row"><span>Advanced Project Planning &amp; Scheduling</span><button class="course-view-btn" onclick="openLightbox('images/course_outlines/akt_apps.jpg')" type="button">View Course Outline</button></div>
+</div>
+</div></div>
+<div class="career-card"><time>Oct 2024 — Apr 2026</time><div>
+<h3>Site Engineer / Project Coordinator</h3>
+<p><strong>Christiani &amp; Nielsen DCM Thai Public Co., Ltd</strong> · Phuket, Thailand</p>
+<p><strong>Project:</strong> Banyan Tree Residences Phuket</p>
+<ul>
+<li>Coordinated civil, structural and finishing works.</li>
+<li>Managed QA/QC, snagging and handover activities.</li>
+<li>Coordinated MEP and multidisciplinary site interfaces.</li>
+<li>Monitored subcontractors, progress and site priorities.</li>
+<li>Resolved technical issues with consultants and site teams.</li>
+</ul>
+<div class="achievement-row"><span class="achievement-chip">Luxury Residential</span><span class="achievement-chip">Structural → Finishing</span><span class="achievement-chip">QA/QC &amp; Handover</span><span class="achievement-chip">MEP Coordination</span></div>
+</div></div>
+<div class="career-card"><time>Jun 2015 — Jan 2024</time><div>
+<h3>Project Engineer</h3>
+<p><strong>STECON Engineering &amp; Construction</strong> · Myanmar</p>
+<p><strong>Projects:</strong> Heineken Brewery Myanmar · Sagaing Fuel Ethanol Factory · Industrial / Heavy Foundation Works</p>
+<ul>
+<li>Coordinated civil, structural and foundation works.</li>
+<li>Managed piling, excavation and concrete activities.</li>
+<li>Planned daily works and construction sequences.</li>
+<li>Coordinated subcontractors, QA/QC and site teams.</li>
+<li>Monitored progress, safety, quality and schedule.</li>
+</ul>
+<div class="achievement-row"><span class="achievement-chip">Sagaing · 773 Bored Piles</span><span class="achievement-chip">Heineken · 440 Pile Points</span><span class="achievement-chip">Heavy Foundation</span></div>
+</div></div>
+<div class="career-card"><time>April 2013 – May 2015</time><div>
+<h3>Bored Pile Testing Engineer / Assistant Engineer</h3>
+<p><strong>GEOLAB Myanmar (Malaysia Base)</strong> · Yangon, Myanmar</p>
+<p><strong>Projects:</strong> Myanmar Pou-Chen (Thar-Du-Kan Industrial Zone) · Thanlyin Star City Condominium · Puma Petroleum Terminal (Thilawa SEZ)</p>
+<ul>
+<li>Performed static load and pile integrity tests.</li>
+<li>Operated hydraulic jacks, gauges, LVDTs and data loggers.</li>
+<li>Used LoggerNet for monitoring and test records.</li>
+<li>Supported pile-load-test setup and instrumentation.</li>
+<li>Maintained safety, quality and testing standards.</li>
+</ul>
+<div class="achievement-row">
+<span class="achievement-chip">ASTM D1143</span>
+<span class="achievement-chip">ASTM D5882</span>
+<span class="achievement-chip">Pile Load Testing</span>
+<span class="achievement-chip">Instrumentation</span>
+<span class="achievement-chip">LoggerNet</span>
+<span class="achievement-chip">HSE</span>
+</div>
+</div></div>
+</div></div></section><section class="section" id="software"><div class="container">
+<div class="section-top">
+<div><span class="eyebrow">05 — Software</span><h2>Engineering Software</h2></div>
+</div>
+<div class="software-logo-grid">
+<article class="software-logo-card"><img alt="AutoCAD logo" src="assets/software/autocad.png"/><strong>AutoCAD</strong></article>
+<article class="software-logo-card revit-click-card" onclick="openRevitGallery()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openRevitGallery();}" role="button" tabindex="0">
+<img alt="Revit logo" src="assets/software/revit.png"/>
+<strong>Revit</strong>
+<span class="software-view-hint">View work →</span>
+</article>
+<article class="software-logo-card sketchup-click-card" onclick="openSketchupGallery()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSketchupGallery();}" role="button" tabindex="0">
+<img alt="SketchUp logo" src="assets/software/sketchup.png"/>
+<strong>SketchUp</strong>
+<span class="software-view-hint">View work →</span>
+</article>
+<article class="software-logo-card twinmotion-click-card" onclick="openTwinmotionGallery()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openTwinmotionGallery();}" role="button" tabindex="0">
+<img alt="Twinmotion logo" src="assets/software/twinmotion.svg"/>
+<strong>Twinmotion</strong>
+<span class="software-view-hint">View renders →</span>
+</article>
+<article class="software-logo-card p6-click-card" onclick="openP6Gallery()" role="button" tabindex="0">
+<img alt="Primavera P6 logo" src="assets/software/primavera-p6.png"/><strong>Primavera P6</strong><span class="software-view-hint">Open files</span></article>
+<article class="software-logo-card msproject-click-card" onclick="openMSProjectGallery()" role="button" tabindex="0">
+<img alt="Microsoft Project logo" src="assets/software/microsoft-project.png"/><strong>Microsoft Project</strong><span class="software-view-hint">Open files</span></article>
+<article class="software-logo-card"><img alt="Microsoft Office logo" src="assets/software/microsoft-office.png"/><strong>Microsoft Office</strong></article>
+</div>
+</div></section>
+<section id="education"><div class="container"><div class="section-top"><div><span class="eyebrow">06 — Education</span><h2>Education &amp; Language</h2></div></div><div class="education-language-grid"><article class="edu-card"><span class="tag">Education</span><h3>Diploma</h3></article><article class="edu-card"><span class="tag">Language</span><h3>English — Upper Intermediate</h3></article><article class="edu-card"><span class="tag">Language</span><h3>Thai — Basic</h3></article></div></div></section>
+<section class="section" id="certificates"><div class="container"><div class="section-top"><div><span class="eyebrow">07 — Certificates</span><h2>Professional Certifications</h2></div></div><div class="award-summary-grid"><article class="award-summary"><span class="tag">English</span><h3>English Language Certificates</h3><p>Starfish — Levels 3A, 3B, 4A &amp; 4B.</p><button class="action-btn" onclick="openCredentialPanel('english')">View Certificates</button></article><article class="award-summary"><span class="tag">Autodesk</span><h3>AutoCAD &amp; Revit Certificates</h3><p>AutoCAD, Revit Essential, Advanced and Specialized Structure.</p><button class="action-btn" onclick="openCredentialPanel('autodesk')">View Certificates</button></article><article class="award-summary"><span class="tag">Planning &amp; Professional Development</span><h3>Planning, Engineering &amp; Professional Certificates</h3><p>MS Project, Primavera P6, Integrated Planning &amp; Control, BBS, Microsoft Office and Project Management Foundations.</p><button class="action-btn" onclick="openCredentialPanel('planning')">View Certificates</button></article></div></div></section>
+<section class="section" id="recommendations"><div class="container"><div class="section-top"><div><span class="eyebrow">08 — References</span><h2>Professional References</h2></div></div><div class="award-summary-grid recommend-simple-grid"><article class="award-summary"><h3>CSC / Geolab Myanmar</h3><button class="action-btn" onclick="openRecommendation('csc')">Open Reference</button></article><article class="award-summary"><h3>SUNTAC Engineering &amp; Construction</h3><button class="action-btn" onclick="openRecommendation('suntac')">Open Reference</button></article><article class="award-summary"><h3>STECON Engineering &amp; Construction</h3><button class="action-btn" onclick="openRecommendation('stecon')">Open Reference</button></article><article class="award-summary"><h3>Christiani &amp; Nielsen DCM Co., Ltd.</h3><button class="action-btn" onclick="openRecommendation('cndcm')">Open Reference</button></article></div></div></section>
+<section class="section" id="awards"><div class="container"><div class="section-top"><div><span class="eyebrow">09 — Awards</span><h2>Awards &amp; Recognition</h2></div></div><div class="award-summary-grid"><article class="award-summary"><span class="tag">Project Safety Award</span><h3>Maxxcare Warehouse — 2017</h3><button class="action-btn" onclick="openCredentialPanel('safety')">View Award</button></article><article class="award-summary"><span class="tag">Project Safety Award</span><h3>Emerald Brewery Myanmar — 2018</h3><button class="action-btn" onclick="openCredentialPanel('safety2')">View Award</button></article></div></div></section>
+<section class="contact" id="contact"><div class="container"><span class="eyebrow">10 — Contact</span><h2>Contact</h2><div class="contact-links"><a href="mailto:yarzarhein.eng@gmail.com">yarzarhein.eng@gmail.com</a><a href="https://wa.me/66953697869" rel="noopener" target="_blank">WhatsApp · +66 95 369 7869</a><a href="https://linkedin.com/in/yar-zar-hein-974894262" rel="noopener" target="_blank">LinkedIn</a></div></div></section>
+<!-- ================= EDIT: PROJECT CARDS ================= -->
+<!-- ================= EDIT: CAREER TIMELINE ================= -->
+<!-- ================= EDIT: SAFETY AWARDS ================= -->
+<!-- ================= EDIT: EDUCATION ================= -->
+<!-- ================= EDIT: CONTACT ================= -->
+<footer>Yar Zar Hein · Engineering Portfolio</footer>
+<div class="modal" id="recommendationModal">
+<div class="modal-wrap recommend-modal-wrap">
+<div class="modal-head">
+<div>
+<span class="eyebrow" id="recType">PROFESSIONAL RECOMMENDATION</span>
+<h2 id="recCompany">Company</h2>
+</div>
+<button aria-label="Close" onclick="closeRecommendation()">×</button>
+</div>
+<div class="modal-content">
+<div class="recommend-two-col">
+<div class="detail-card recommend-reference">
+<h3>Reference Person</h3>
+<p><strong id="recPerson"></strong><br/><span id="recPersonTitle"></span></p>
+<p><strong>Email:</strong> <span id="recEmail"></span><br/><strong>Phone:</strong> <span id="recPhone"></span></p>
+<p class="rec-role" id="recRole"></p>
+</div>
+<div class="recommend-pdf-panel">
+<iframe id="recPdfFrame" title="Recommendation PDF"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal" id="modal-byt">
+<div class="modal-wrap">
+<div class="modal-head"><div><span class="eyebrow">Thailand · Luxury Residential</span><h2>Banyan Tree Residences Phuket</h2></div><button aria-label="Close" onclick="closeProject('byt')">×</button></div>
+<div class="modal-hero" style="background-image:url('images/projects/byt_cover.jpg')"></div>
+<div class="modal-content">
+<span class="tag">Site Engineer / Project Coordinator</span>
+<div class="metric-grid"><div class="metric"><strong>9</strong><span>Luxury Villas</span></div><div class="metric"><strong>3</strong><span>Condominium Buildings</span></div><div class="metric"><strong>Multi-Discipline</strong><span>Structural → Finishing</span></div><div class="metric"><strong>Thailand</strong><span>Project Experience</span></div></div>
+<h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="Banyan Tree Residences logo" src="images/logos/byt_logo.png"/><small>Client / Developer</small><strong>Banyan Tree Residences</strong></div><div class="org-card"><img alt="Mentabuild Limited logo" src="images/logos/mentabuild_logo.png"/><small>Consultant</small><strong>Mentabuild Limited</strong></div><div class="org-card"><img alt="Christiani &amp; Nielsen DCM Co., Ltd. logo" src="images/logos/cndcm_logo.png"/><small>Main Contractor</small><strong>Christiani &amp; Nielsen DCM Co., Ltd.</strong></div></div>
+<div class="detail-grid"><div class="detail-card"><h3>Role &amp; Responsibilities</h3><ul><li>Civil, structural, architectural and finishing coordination.</li><li>QA/QC inspections, rectification, snagging and handover support.</li><li>Site coordination across masonry, tiling, bathrooms, pool/jacuzzi and external works.</li><li>MEP interface and multidisciplinary site coordination.</li></ul></div><div class="detail-card"><h3>Portfolio Focus</h3><p>Selected engineering evidence is organized by actual work activity. Similar / duplicate photos are reduced, while distinct construction stages and technical responsibilities are retained.</p></div></div>
+<h3 class="subhead">Selected Engineering Evidence</h3>
+<div class="tabs"><button class="tab active" onclick="filterGallery('byt','all',this)">All</button><button class="tab" onclick="filterGallery('byt','overview',this)">Overall / Plan</button><button class="tab" onclick="filterGallery('byt','structural',this)">Structural</button><button class="tab" onclick="filterGallery('byt','finishing',this)">Finishing</button><button class="tab" onclick="filterGallery('byt','bathroom',this)">Bathroom</button><button class="tab" onclick="filterGallery('byt','jacuzzi',this)">Jacuzzi</button></div>
+<div class="gallery" id="gallery-byt"><figure data-cat="overview"><img alt="Overall development plan" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_plan.jpg"/><figcaption>Overall development plan</figcaption></figure><figure data-cat="overview"><img alt="Architectural rendering — overall development" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_render_aerial.jpg"/><figcaption>Architectural rendering — overall development</figcaption></figure><figure data-cat="overview"><img alt="Architectural rendering — pool / outdoor concept" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_render_pool.jpg"/><figcaption>Architectural rendering — pool / outdoor concept</figcaption></figure><figure data-cat="structural"><img alt="Reinforced-concrete structural works" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_struct_01.jpg"/><figcaption>Reinforced-concrete structural works</figcaption></figure><figure data-cat="structural"><img alt="Structural progress and site coordination" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_struct_02.jpg"/><figcaption>Structural progress and site coordination</figcaption></figure><figure data-cat="finishing"><img alt="Masonry / architectural partition works" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_finish_01.jpg"/><figcaption>Masonry / architectural partition works</figcaption></figure><figure data-cat="finishing"><img alt="Wall finishing and MEP interface coordination" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_finish_02.jpg"/><figcaption>Wall finishing and MEP interface coordination</figcaption></figure><figure data-cat="finishing"><img alt="External / pool-deck tiling works" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_finish_03.jpg"/><figcaption>External / pool-deck tiling works</figcaption></figure><figure data-cat="finishing"><img alt="Architectural feature finishing" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_finish_04.jpg"/><figcaption>Architectural feature finishing</figcaption></figure><figure data-cat="bathroom"><img alt="Bathroom wall and floor tiling" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_bath_01.jpg"/><figcaption>Bathroom wall and floor tiling</figcaption></figure><figure data-cat="bathroom"><img alt="Bathroom finishing progress" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_bath_02.jpg"/><figcaption>Bathroom finishing progress</figcaption></figure><figure data-cat="bathroom"><img alt="Completed-stage bathroom / shower enclosure" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_bath_03.jpg"/><figcaption>Completed-stage bathroom / shower enclosure</figcaption></figure><figure data-cat="jacuzzi"><img alt="Rectangular Jacuzzi construction — overall work area" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_01_overall.jpg"/><figcaption>Jacuzzi construction — overall work area and geometry</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Jacuzzi shell and internal wall construction" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_02_shell.jpg"/><figcaption>Jacuzzi shell — internal wall and seating formation</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Jacuzzi internal surface preparation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_03_internal.jpg"/><figcaption>Internal surface preparation and detailing</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Jacuzzi waterproofing and surface finishing preparation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_04_surface.jpg"/><figcaption>Surface treatment / waterproofing preparation</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Jacuzzi MEP pipework and fittings coordination" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_05_mep.jpg"/><figcaption>MEP pipework and Jacuzzi fitting coordination</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Jacuzzi step and edge finishing detail" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_06_steps.jpg"/><figcaption>Step, edge and architectural finishing detail</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Jacuzzi finishing-stage work" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_07_finishing.jpg"/><figcaption>Finishing-stage work and final surface preparation</figcaption></figure>
+<figure data-cat="jacuzzi"><img alt="Rectangular Jacuzzi — completed-stage feature" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/byt_jacuzzi_rectangular.jpg"/><figcaption>Rectangular Jacuzzi — completed stage</figcaption></figure></div>
+</div>
+</div>
+</div>
+<div class="modal" id="modal-hei">
+<div class="modal-wrap">
+<div class="modal-head"><div><span class="eyebrow">Myanmar · Industrial / Brewery</span><h2>Heineken Expansion — C404</h2></div><button aria-label="Close" onclick="closeProject('hei')">×</button></div>
+<div class="modal-hero" style="background-image:url('images/projects/hei_cover_final.jpg')"></div>
+<div class="modal-content">
+<span class="tag">Project Engineer</span>
+<div class="metric-grid"><div class="metric"><strong>440</strong><span>Pile Points · One Building</span></div><div class="metric"><strong>4</strong><span>Backhoes Coordinated</span></div><div class="metric"><strong>1</strong><span>Pile Hacking Machine</span></div><div class="metric"><strong>Industrial</strong><span>Foundation / Civil Works</span></div></div>
+<h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="Heineken logo" src="images/logos/hei_logo.png"/><small>Client</small><strong>Heineken</strong></div><div class="org-card"><img alt="BECA logo" src="images/logos/beca_logo.png"/><small>Consultant</small><strong>BECA</strong></div><div class="org-card"><img alt="STECON Engineering &amp; Construction logo" src="images/logos/stecon_logo.png"/><small>Contractor</small><strong>STECON Engineering &amp; Construction</strong></div></div>
+<div class="detail-grid"><div class="detail-card"><h3>Role &amp; Responsibilities</h3><ul><li>Foundation and site-execution coordination for the New Malt Silo works.</li><li>Plant and machinery coordination, including work-front access and equipment deployment.</li><li>Excavation, sheet piling, temporary strutting/support and reinforced-concrete execution.</li><li>Progress monitoring and coordination with site teams and subcontractors.</li></ul></div><div class="detail-card"><h3>Portfolio Focus</h3><p>Selected engineering evidence is organized by actual work activity. Similar / duplicate photos are reduced, while distinct construction stages and technical responsibilities are retained.</p></div></div>
+<h3 class="subhead">Selected Engineering Evidence</h3>
+<div class="tabs"><button class="tab active" onclick="filterGallery('hei','all',this)">All</button><button class="tab" onclick="filterGallery('hei','sheet',this)">Sheet Piling</button><button class="tab" onclick="filterGallery('hei','exc',this)">Excavation</button><button class="tab" onclick="filterGallery('hei','strut',this)">Strutting</button><button class="tab" onclick="filterGallery('hei','conc',this)">Concrete</button></div>
+<div class="gallery" id="gallery-hei"><figure data-cat="sheet"><img alt="Sheet-pile work zone beside existing facilities" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_sheet_01.jpg"/><figcaption>Sheet-pile work zone beside existing facilities</figcaption></figure><figure data-cat="sheet"><img alt="Steel sheet-pile installation using hydraulic equipment" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_sheet_02.jpg"/><figcaption>Steel sheet-pile installation using hydraulic equipment</figcaption></figure><figure data-cat="sheet"><img alt="Installed steel sheet piles and piling equipment" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_sheet_03.jpg"/><figcaption>Installed steel sheet piles and piling equipment</figcaption></figure><figure data-cat="excavation"><img alt="Deep excavation within sheet-pile retaining system" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_excavation_01.jpg"/><figcaption>Deep excavation within sheet-pile retaining system</figcaption></figure><figure data-cat="excavation"><img alt="Excavation and exposed pile / retaining wall work front" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_excavation_02.jpg"/><figcaption>Excavation and exposed pile / retaining wall work front</figcaption></figure><figure data-cat="excavation"><img alt="Deep excavation and foundation work-front progress" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_excavation_03.jpg"/><figcaption>Deep excavation and foundation work-front progress</figcaption></figure><figure data-cat="strutting"><img alt="Temporary strutting / reinforced-concrete work-front preparation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_strut_01.jpg"/><figcaption>Temporary strutting / reinforced-concrete work-front preparation</figcaption></figure><figure data-cat="strutting"><img alt="Temporary steel strut lifting and installation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_strut_02.jpg"/><figcaption>Temporary steel strut lifting and installation</figcaption></figure><figure data-cat="strutting"><img alt="Temporary steel strutting — night installation progress" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_strut_03.jpg"/><figcaption>Temporary steel strutting — night installation progress</figcaption></figure><figure data-cat="concrete"><img alt="Reinforcement and formwork preparation for concrete works" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_concrete_01.jpg"/><figcaption>Reinforcement and formwork preparation for concrete works</figcaption></figure><figure data-cat="concrete"><img alt="Reinforcement / formwork preparation for structural concrete" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_concrete_02.jpg"/><figcaption>Reinforcement / formwork preparation for structural concrete</figcaption></figure><figure data-cat="concrete"><img alt="Concrete placement using pump booms" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_concrete_03.jpg"/><figcaption>Concrete placement using pump booms</figcaption></figure><figure data-cat="concrete"><img alt="Slab reinforcement and concrete work-front preparation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/hei_concrete_04.jpg"/><figcaption>Slab reinforcement and concrete work-front preparation</figcaption></figure></div>
+</div>
+</div>
+</div>
+<div class="modal" id="modal-sag">
+<div class="modal-wrap">
+<div class="modal-head"><div><span class="eyebrow">Myanmar · Heavy Industrial</span><h2>Sagaing Fuel Ethanol Factory</h2></div><button aria-label="Close" onclick="closeProject('sag')">×</button></div>
+<div class="modal-hero" style="background-image:url('images/projects/sag_progress_01.jpg')"></div>
+<div class="modal-content">
+<span class="tag">Project Engineer</span>
+<div class="metric-grid"><div class="metric"><strong>773</strong><span>Bored Piles</span></div><div class="metric"><strong>Foundation Works</strong><span>Foundation Concrete</span></div><div class="metric"><strong>Planning</strong><span>Bored Piling &amp; Work Fronts</span></div><div class="metric"><strong>Coordination</strong><span>Client + Subcontractor</span></div></div>
+<h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="Myanmar Brewery logo" src="images/logos/sagaing_client_myanmar_brewery.png"/><small>Client</small><strong>Mandalay Beverages Enterprise Ltd.</strong></div><div class="org-card"><img alt="Win Brothers Group logo" src="images/logos/sagaing_consultant_win_brothers.png"/><small>Consultant</small><strong>Win Brothers Group</strong></div><div class="org-card"><img alt="STECON Engineering &amp; Construction logo" src="images/logos/stecon_logo.png"/><small>Contractor</small><strong>STECON Engineering &amp; Construction</strong></div></div>
+<div class="detail-grid"><div class="detail-card"><h3>Role &amp; Responsibilities</h3><ul><li>Prepared bored-piling planning and site-execution planning.</li><li>Planned work fronts and construction sequencing with subcontractor and client interfaces.</li><li>Coordinated bored-pile QA/QC, reinforcement cage installation and concreting activities.</li><li>Supervised / coordinated foundation concrete works.</li><li>Supported heavy industrial foundation and equipment-related civil works.</li></ul></div><div class="detail-card"><h3>Portfolio Focus</h3><p>Selected engineering evidence is organized by actual work activity. The Concrete category contains foundation-concreting evidence only; equipment erection and heavy lifting are kept separate.</p></div></div>
+<h3 class="subhead">Selected Engineering Evidence</h3>
+<div class="tabs"><button class="tab active" onclick="filterGallery('sag','all',this)">All</button><button class="tab" onclick="filterGallery('sag','bored',this)">Bored Pile / QA-QC</button><button class="tab" onclick="filterGallery('sag','foundation',this)">Foundation</button><button class="tab" onclick="filterGallery('sag','concrete',this)">Concrete</button><button class="tab" onclick="filterGallery('sag','heavy',this)">Site / Progress</button></div>
+<div class="gallery" id="gallery-sag"><figure data-cat="bored"><img alt="Bentonite slurry viscosity field test" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_01.jpg"/><figcaption>Bentonite slurry viscosity field test</figcaption></figure><figure data-cat="bored"><img alt="Bentonite slurry field quality-control testing" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_02.jpg"/><figcaption>Bentonite slurry field quality-control testing</figcaption></figure><figure data-cat="bored"><img alt="Bentonite slurry pH field check" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_03.jpg"/><figcaption>Bentonite slurry pH field check</figcaption></figure><figure data-cat="bored"><img alt="Borehole slurry quality-control test setup" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_05.jpg"/><figcaption>Borehole slurry quality-control test setup</figcaption></figure><figure data-cat="bored"><img alt="Bored-pile concrete placement using hopper / tremie system" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_06.jpg"/><figcaption>Bored-pile concrete placement using hopper / tremie system</figcaption></figure><figure data-cat="bored"><img alt="Bored-pile drilling operation and site execution" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_08.jpg"/><figcaption>Bored-pile drilling operation and site execution</figcaption></figure><figure data-cat="bored"><img alt="Concrete quality-control / placement preparation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_09.jpg"/><figcaption>Concrete quality-control / placement preparation</figcaption></figure><figure data-cat="bored"><img alt="Reinforcement cage lifting and installation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/bored_10.jpg"/><figcaption>Reinforcement cage lifting and installation</figcaption></figure><figure data-cat="foundation"><img alt="Foundation reinforcement and pile-head work front" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_found_01.jpg"/><figcaption>Foundation reinforcement and pile-head work front</figcaption></figure><figure data-cat="foundation"><img alt="Foundation reinforcement and structural preparation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_found_03.jpg"/><figcaption>Foundation reinforcement and structural preparation</figcaption></figure><figure data-cat="heavy"><img alt="Hydraulic pile-head breaking / hacking equipment" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_found_05.jpg"/><figcaption>Hydraulic pile-head breaking / hacking equipment</figcaption></figure><figure data-cat="concrete"><img alt="Foundation concrete works — night execution" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_concrete_01.jpg"/><figcaption>Foundation concrete works — night execution</figcaption></figure><figure data-cat="concrete"><img alt="Circular reinforced-concrete foundation — concrete placement" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_concrete_02.jpg"/><figcaption>Circular reinforced-concrete foundation — concrete placement</figcaption></figure><figure data-cat="concrete"><img alt="Reinforced-concrete foundation slab — pour progress" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_concrete_03.jpg"/><figcaption>Reinforced-concrete foundation slab — pour progress</figcaption></figure><figure data-cat="heavy"><img alt="Night foundation works and site execution" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_heavy_01.jpg"/><figcaption>Night foundation works and site execution</figcaption></figure><figure data-cat="heavy"><img alt="Site supervision during night foundation works" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_heavy_02.jpg"/><figcaption>Site supervision during night foundation works</figcaption></figure><figure data-cat="heavy"><img alt="Overall excavation and foundation work-front progress" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_progress_01.jpg"/><figcaption>Overall excavation and foundation work-front progress</figcaption></figure><figure data-cat="heavy"><img alt="Pile-head and foundation preparation progress" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/sag_progress_02.jpg"/><figcaption>Pile-head and foundation preparation progress</figcaption></figure></div>
+</div>
+</div>
+</div>
+<div class="modal" id="modal-em">
+<div class="modal-wrap">
+<div class="modal-head"><div><span class="eyebrow">Myanmar · Industrial Brewery</span><h2>Emerald Brewery Myanmar — Chang Beer</h2></div><button aria-label="Close" onclick="closeProject('em')">×</button></div>
+<div class="modal-hero" style="background-image:url('images/projects/em_overall_01.jpg')"></div>
+<div class="modal-content">
+<span class="tag">Project Engineer · Main-Contractor-Side Planning &amp; Coordination</span>
+<div class="metric-grid"><div class="metric"><strong>2,204</strong><span>Pile Points</span></div><div class="metric"><strong>5</strong><span>Piling Machines</span></div><div class="metric"><strong>Pressed + Driven</strong><span>Piling Experience</span></div><div class="metric"><strong>Safety Award</strong><span>Project Recognition</span></div></div>
+<h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="Emerald Brewery Myanmar logo" src="images/logos/emerald_brewery_logo.png"/><small>Client</small><strong>Emerald Brewery Myanmar Ltd.</strong></div><div class="org-card"><img alt="ThaiBev logo" src="images/logos/thaibev_logo.png"/><small>Consultant</small><strong>Bev Tech Co., Ltd. — Thailand</strong></div><div class="org-card"><img alt="SUNTAC Engineering &amp; Construction logo" src="images/logos/suntac_logo.png"/><small>Main Contractor</small><strong>SUNTAC Engineering &amp; Construction</strong></div></div>
+<div class="detail-grid"><div class="detail-card"><h3>Role &amp; Responsibilities</h3><ul><li>Led work packages including Wastewater Treatment, Brewhouse and Utility Building areas.</li><li>Main-contractor-side piling operations planning and work-front sequencing.</li><li>Coordinated piling-machine mobilization / movement, pile delivery logistics and daily production targets.</li><li>Negotiated and coordinated with piling subcontractors on resources, access, delivery and execution.</li><li>Handled pressed and driven piling operations coordination and broader civil / structural site execution.</li></ul></div><div class="detail-card"><h3>Portfolio Focus</h3><p>Selected evidence includes construction progress, wastewater-treatment civil works, project planning visuals and site activities.</p></div></div>
+<h3 class="subhead">Selected Engineering Evidence</h3>
+<div class="tabs"><button class="tab active" onclick="filterGallery('em','all',this)">All</button><button class="tab" onclick="filterGallery('em','overview',this)">Overall / Plan</button><button class="tab" onclick="filterGallery('em','construction',this)">Construction</button><button class="tab" onclick="filterGallery('em','site',this)">Site / HSE</button></div>
+<div class="gallery" id="gallery-em"><figure data-cat="overview"><img alt="Completed Emerald Brewery / Chang Beer administration area" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_overall_01.jpg"/><figcaption>Completed Emerald Brewery / Chang Beer administration area</figcaption></figure><figure data-cat="overview"><img alt="Completed project — overall site aerial view" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_plan_01.jpg"/><figcaption>Completed project — overall site aerial view</figcaption></figure><figure data-cat="construction"><img alt="Structural construction progress — project building work front" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_foundation_01.jpg"/><figcaption>Structural construction progress — project building work front</figcaption></figure><figure data-cat="site"><img alt="Project site team / piling-work ceremony" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_piling_01.jpg"/><figcaption>Project site team / piling-work ceremony</figcaption></figure><figure data-cat="construction"><img alt="Wastewater treatment area — civil works overview" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_piling_02.jpg"/><figcaption>Wastewater treatment area — civil works overview</figcaption></figure><figure data-cat="construction"><img alt="Reinforced-concrete wastewater treatment works" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_piling_03.jpg"/><figcaption>Reinforced-concrete wastewater treatment works</figcaption></figure><figure data-cat="site"><img alt="Site HSE / emergency-response activity" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_site_01.jpg"/><figcaption>Site HSE / emergency-response activity</figcaption></figure><figure data-cat="overview"><img alt="Project master plan / development visualization" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_site_02.jpg"/><figcaption>Project master plan / development visualization</figcaption></figure><figure data-cat="overview"><img alt="Project layout / building development visualization" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/em_site_03.jpg"/><figcaption>Project layout / building development visualization</figcaption></figure></div>
+</div>
+</div>
+</div>
+<div class="modal" id="modal-geo">
+<div class="modal-wrap">
+<div class="modal-head"><div><span class="eyebrow">Myanmar · Specialist Foundation Testing</span><h2>GEOLAB — Bored Pile Testing Experience</h2></div><button aria-label="Close" onclick="closeProject('geo')">×</button></div>
+<div class="modal-hero" style="background-image:url('images/projects/geo_02.jpg')"></div>
+<div class="modal-content">
+<span class="tag">Bored Pile Testing Engineer · Thanlyin Star City Condominium</span>
+<div class="metric-grid"><div class="metric"><strong>Load Testing</strong><span>Kentledge + Inverted + Press Pile</span></div><div class="metric"><strong>Kentledge</strong><span>Reaction System</span></div><div class="metric"><strong>Hydraulic</strong><span>Load Application</span></div><div class="metric"><strong>Field Data</strong><span>Monitoring &amp; Records</span></div></div>
+<div class="detail-grid"><div class="detail-card"><h3>Role &amp; Responsibilities</h3><ul><li>Prepared / coordinated static pile load-test arrangements and site setup.</li><li>Worked with kentledge / reaction systems, press pile load testing and hydraulic load application.</li><li>Supported instrumentation, monitoring and field data recording.</li><li>Evaluated pile response and supported pile-performance / integrity assessment.</li></ul></div><div class="detail-card"><h3>Portfolio Focus</h3><p>Selected engineering evidence is organized by actual work activity. Similar / duplicate photos are reduced, while distinct construction stages and technical responsibilities are retained.</p></div></div>
+<h3 class="subhead">Selected Engineering Evidence</h3>
+<div class="tabs">
+<button class="tab active" onclick="filterGallery('geo','all',this)">All</button>
+<button class="tab" onclick="filterGallery('geo','kentledge',this)">Kentledge System</button>
+<button class="tab" onclick="filterGallery('geo','inverted',this)">Inverted System</button>
+<button class="tab" onclick="filterGallery('geo','pressed',this)">Press Pile Load Test</button>
+<button class="tab" onclick="filterGallery('geo','instrumentation',this)">Instrumentation</button>
+</div>
+<div class="gallery" id="gallery-geo">
+<figure data-cat="kentledge"><img alt="Kentledge static pile load test setup" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_02.jpg"/><figcaption>Kentledge system — overall static pile load-test setup</figcaption></figure>
+<figure data-cat="kentledge"><img alt="Hydraulic jack under kentledge reaction system" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_04.jpg"/><figcaption>Kentledge system — hydraulic jack and reaction arrangement</figcaption></figure>
+<figure data-cat="instrumentation"><img alt="Hydraulic load application setup" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_05.jpg"/><figcaption>Instrumentation — hydraulic load application and monitoring</figcaption></figure>
+<figure data-cat="inverted"><img alt="Inverted reaction frame pile load test setup" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_03.jpg"/><figcaption>Inverted system — reaction frame / beam arrangement</figcaption></figure>
+<figure data-cat="inverted"><img alt="Inverted system test area" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_06.jpg"/><figcaption>Inverted system — test-area setup and work-zone control</figcaption></figure>
+<figure data-cat="inverted"><img alt="Inverted pile load test operation" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_08.jpg"/><figcaption>Inverted system — field load-test operation</figcaption></figure>
+<figure data-cat="instrumentation"><img alt="Pile load test instrumentation and data acquisition" loading="lazy" onclick="openLightbox(this.src)" src="images/projects/geo_07.jpg"/><figcaption>Instrumentation — data acquisition and field monitoring equipment</figcaption></figure>
+<figure data-cat="instrumentation"><img alt="Instrumentation — field setup and monitoring" loading="lazy" onclick="openLightbox(this.src)" src="assets/geolab/geolab_instrumentation_field_setup.jpg"/><figcaption><strong>INSTRUMENTATION</strong><br/>Field setup and monitoring</figcaption></figure>
+<figure data-cat="pressed"><img alt="Press Pile Load Test — loading rig and reaction setup" loading="lazy" onclick="openLightbox(this.src)" src="assets/geolab/geolab_pressed_pile_load_test_rig.jpg"/><figcaption><strong>PRESS PILE LOAD TEST</strong><br/>Loading rig and reaction setup</figcaption></figure>
+<figure data-cat="pressed"><img alt="Press Pile Load Test — hydraulic jack and reaction beam arrangement" loading="lazy" onclick="openLightbox(this.src)" src="assets/geolab/geolab_pressed_pile_hydraulic_jack.jpg"/><figcaption><strong>PRESS PILE LOAD TEST</strong><br/>Hydraulic jack and reaction beam arrangement</figcaption></figure>
+<figure data-cat="instrumentation"><img alt="Instrumentation — CR800 data acquisition and monitoring system" loading="lazy" onclick="openLightbox(this.src)" src="assets/geolab/geolab_instrumentation_cr800.jpg"/><figcaption><strong>INSTRUMENTATION</strong><br/>CR800 data acquisition and monitoring system</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+<div class="modal" id="modal-glass"><div class="modal-wrap"><div class="modal-head"><div><span class="eyebrow">Myanmar · Industrial</span><h2>Thanlyin Glass Factory</h2></div><button onclick="closeProject('glass')">×</button></div><div class="modal-content"><h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="OSOTSPA logo" src="images/logos/glass_osotspa.png"/><small>Client</small><strong>OSOTSPA</strong></div><div class="org-card"><img alt="Myanmar Golden Eagle logo" src="images/logos/glass_myanmar_golden_eagle.png"/><small>Consultant</small><strong>Myanmar Golden Eagle — Thailand Base</strong></div><div class="org-card"><img alt="SUNTAC Engineering &amp; Construction logo" src="images/logos/suntac_logo.png"/><small>Contractor</small><strong>SUNTAC Engineering &amp; Construction</strong></div></div><div class="detail-card"><p><strong>Role:</strong> Assistant Project Engineer</p></div><div class="gallery project-evidence-gallery"><figure><img alt="Industrial equipment / site work" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/thanlyin-glass-factory/01-industrial-equipment-work.png"/><figcaption>Industrial equipment / site work</figcaption></figure><figure><img alt="Construction progress — aerial view" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/thanlyin-glass-factory/02-construction-progress-aerial.png"/><figcaption>Construction progress — aerial view</figcaption></figure><figure><img alt="Steel structure progress" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/thanlyin-glass-factory/03-steel-structure-progress.png"/><figcaption>Steel structure progress</figcaption></figure><figure><img alt="Industrial building works" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/thanlyin-glass-factory/04-industrial-building.png"/><figcaption>Industrial building works</figcaption></figure><figure><img alt="Thanlyin Glass Factory" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/thanlyin-glass-factory/05-thanlyin-glass-factory.png"/><figcaption>Thanlyin Glass Factory</figcaption></figure><figure><img alt="Utility building" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/thanlyin-glass-factory/06-utility-building.png"/><figcaption>Utility building</figcaption></figure></div></div></div></div>
+<div class="modal" id="modal-makro"><div class="modal-wrap"><div class="modal-head"><div><span class="eyebrow">Myanmar · Warehouse &amp; Retail</span><h2>Makro Myanmar</h2></div><button onclick="closeProject('makro')">×</button></div><div class="modal-content"><div class="detail-card"><p><strong>Project:</strong> 2 Storey Precast Office Building &amp; Warehouse</p></div><h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="Makro logo" src="images/logos/makro_logo.png"/><small>Client</small><strong>Makro</strong></div><div class="org-card"><img alt="Chuachawai Royal Haskoning logo" src="images/logos/makro_chuachawai_royal_haskoning.png"/><small>Consultant</small><strong>Chuachawai Royal Haskoning — Thailand</strong></div><div class="org-card"><img alt="ITALTHAI Engineering logo" src="images/logos/italthai_engineering_logo.png"/><small>Contractor</small><strong>ITALTHAI Engineering</strong></div></div><div class="detail-card"><p><strong>Role:</strong> Civil Engineer</p></div><div class="gallery project-evidence-gallery"><figure><img alt="Completed Makro Myanmar" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/01-cover-completed-makro.png"/><figcaption>Completed Makro Myanmar</figcaption></figure><figure><img alt="Precast structural works" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/02-precast-structural-work.png"/><figcaption>Precast structural works</figcaption></figure><figure><img alt="Warehouse reinforced concrete floor" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/03-warehouse-floor-concrete.png"/><figcaption>Warehouse reinforced concrete floor</figcaption></figure><figure><img alt="Office structural floor works" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/04-office-floor-structural.png"/><figcaption>Office structural floor works</figcaption></figure><figure><img alt="Site safety coordination" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/05-site-safety-coordination.png"/><figcaption>Site safety coordination</figcaption></figure><figure><img alt="Architectural and finishing works" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/06-architectural-finishing.png"/><figcaption>Architectural and finishing works</figcaption></figure><figure><img alt="Completed office interior" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/makro-myanmar/photos/07-completed-interior.png"/><figcaption>Completed office interior</figcaption></figure></div></div></div></div>
+<div class="modal" id="modal-maxx"><div class="modal-wrap"><div class="modal-head"><div><span class="eyebrow">Myanmar · Warehouse &amp; Distribution</span><h2>Maxxcare Warehouse &amp; Distribution Center</h2></div><button onclick="closeProject('maxx')">×</button></div><div class="modal-content"><div class="detail-card"><p><strong>Project:</strong> 2-Storey Office &amp; Warehouse Facility</p></div><h3 class="subhead">Project Organizations</h3><div class="org-grid"><div class="org-card"><img alt="Maxxcare logo" src="images/logos/maxxcare_logo.png"/><small>Client</small><strong>Maxxcare</strong></div><div class="org-card"><img alt="Roga Consultant logo" src="images/logos/roga_consultant_logo.png"/><small>Consultant</small><strong>Roga Consultant — Malaysia Base</strong></div><div class="org-card"><img alt="SUNTAC Engineering &amp; Construction logo" src="images/logos/suntac_logo.png"/><small>Contractor</small><strong>SUNTAC Engineering &amp; Construction</strong></div></div><div class="detail-card"><p><strong>Role:</strong> Civil Site Engineer</p></div><div class="gallery project-evidence-gallery"><figure><img alt="Completed Maxxcare warehouse" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/01-cover-completed-maxxcare.png"/><figcaption>Completed Maxxcare warehouse</figcaption></figure><figure><img alt="Reinforcement and concrete preparation" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/02-foundation-floor-works.png"/><figcaption>Reinforcement and concrete preparation</figcaption></figure><figure><img alt="Completed warehouse floor" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/03-completed-warehouse-floor.png"/><figcaption>Completed warehouse floor</figcaption></figure><figure><img alt="Steel structure erection" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/04-steel-structure-erection.png"/><figcaption>Steel structure erection</figcaption></figure><figure><img alt="Site safety coordination" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/05-site-safety-coordination.png"/><figcaption>Site safety coordination</figcaption></figure><figure><img alt="Office RC structural works" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/06-office-rc-structure.png"/><figcaption>Office RC structural works</figcaption></figure><figure><img alt="Floor reinforcement" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/07-floor-reinforcement.png"/><figcaption>Floor reinforcement</figcaption></figure><figure><img alt="Floor construction progress" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/08-floor-construction-progress.png"/><figcaption>Floor construction progress</figcaption></figure><figure><img alt="Staff facility interior" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/09-staff-facility-interior.png"/><figcaption>Staff facility interior</figcaption></figure><figure><img alt="Completed external area" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/10-external-finished-area.png"/><figcaption>Completed external area</figcaption></figure><figure><img alt="Completed office interior" loading="lazy" onclick="openLightbox(this.src)" src="assets/projects/maxxcare-warehouse/photos/11-completed-office-interior.png"/><figcaption>Completed office interior</figcaption></figure></div></div></div></div>
+<div class="modal" id="credentialPanel"><div class="modal-wrap"><div class="modal-head"><div><span class="eyebrow">Credentials</span><h2 id="credentialTitle">Certificates</h2></div><button onclick="closeCredentialPanel()">×</button></div><div class="modal-content"><div class="gallery" id="credentialGallery"></div></div></div></div><div class="lightbox" id="lightbox"><button onclick="closeLightbox()">×</button><img alt="Expanded portfolio image" id="lightboxImg"/></div>
+<script src="js/main.js">
+function openAward(){
+  document.getElementById("awardModal").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeAward(){
+  document.getElementById("awardModal").classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+</script>
+<script>
+const recommendationData = {
+  csc: {
+    type: "Professional Recommendation",
+    company: "Civil Solution Consultants (CSC) / Geolab Myanmar",
+    role: "Assistant Engineer · Building Construction Supervision & Pile Load Testing · 05 Jun 2013 – 31 May 2015",
+    summary: "Building construction supervision and pile load testing, including QA/QC, ASTM D1143 static load testing, ASTM D5882 pile integrity testing, instrumentation, LoggerNet monitoring and HSE compliance.",
+    person: "Win Naing Htun",
+    personTitle: "Chief Consulting Engineer & Managing Director",
+    email: "csc1999@gmail.com / csc1999@csc-group.org",
+    phone: "+95-1-581562, +95-9-5003281, +95-9-50077153, +95-9-8625068",
+    letter: "documents/recommendations/CSC_Recommendation_Letter.pdf",
+    button: "View Original Recommendation Letter"
+  },
+  suntac: {
+    type: "Professional Recommendation",
+    company: "SUNTAC Engineering & Construction",
+    role: "Assistant Project Engineer · Jun 2015 – Dec 2022",
+    summary: "Recommendation highlighting diligence, honesty, work commitment, leadership, teamwork, cooperation and professional conduct.",
+    person: "Zaw Myo Aung",
+    personTitle: "Senior Project Manager",
+    email: "zawmyoaung.enc@suntactechnology.com",
+    phone: "+959 43164324",
+    letter: "documents/recommendations/SUNTAC_Recommendation_Letter.pdf",
+    button: "View Original Recommendation Letter"
+  },
+  stecon: {
+    type: "Professional Recommendation",
+    company: "STECON Engineering & Construction",
+    role: "Project Engineer · Jan 2022 – Jan 2024",
+    summary: "Recommendation highlighting diligence, integrity, commitment, leadership, teamwork, cooperation and professional relationships.",
+    person: "Zaw Myo Aung",
+    personTitle: "Senior Project Manager",
+    email: "zawmyoaung@steconenc.com",
+    phone: "+959 43164324",
+    letter: "documents/recommendations/STECON_Recommendation_Letter.pdf",
+    button: "View Original Recommendation Letter"
+  },
+  cndcm: {
+    type: "Employment Verification",
+    company: "Christiani & Nielsen DCM Co., Ltd.",
+    role: "Project Coordinator (BYT) · 07 Nov 2024 – 30 Apr 2026",
+    summary: "Official Certificate of Employment verifying service as Project Coordinator (BYT).",
+    person: "Julian Richard Olds",
+    personTitle: "Director",
+    email: "Julian@cndcm.co.th",
+    phone: "Head Office: 02-3388000 · Phuket Office: 076-527550 / 076-527551 Ext. 15",
+    letter: "documents/recommendations/CNDCM_Employment_Verification.pdf",
+    button: "View Employment Certificate"
+  }
+};
+
+function openRecommendation(key){
+  const d = recommendationData[key];
+  if(!d) return;
+  document.getElementById("recType").textContent = d.type;
+  document.getElementById("recCompany").textContent = d.company;
+  document.getElementById("recRole").textContent = d.role;
+  document.getElementById("recPerson").textContent = d.person || "";
+  document.getElementById("recPersonTitle").textContent = d.personTitle || "";
+  document.getElementById("recEmail").textContent = d.email || "";
+  document.getElementById("recPhone").textContent = d.phone || "";
+  document.getElementById("recPdfFrame").src = d.letter + "#toolbar=0&navpanes=0&view=FitH";
+  document.getElementById("recommendationModal").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeRecommendation(){
+  document.getElementById("recommendationModal").classList.remove("open");
+  document.body.style.overflow = "";
+}
+</script>
+<div aria-hidden="true" class="software-gallery-modal" id="sketchupGallery" onclick="if(event.target===this) closeSketchupGallery()">
+<div class="software-gallery-panel">
+<button aria-label="Close" class="software-gallery-close" onclick="closeSketchupGallery()" type="button">×</button>
+<div class="software-gallery-head">
+<span class="eyebrow">SketchUp — Selected Work</span>
+<h2>3D Modelling &amp; Design Samples</h2>
+</div>
+<div class="software-gallery-grid">
+<img alt="SketchUp architectural model sample 1" src="assets/software/sketchup-gallery/sketchup-work-01.png"/>
+<img alt="SketchUp architectural model sample 2" src="assets/software/sketchup-gallery/sketchup-work-02.png"/>
+<img alt="SketchUp architectural model sample 3" src="assets/software/sketchup-gallery/sketchup-work-03.png"/>
+<img alt="SketchUp interior model sample 4" src="assets/software/sketchup-gallery/sketchup-work-04.png"/>
+<img alt="SketchUp interior model sample 5" src="assets/software/sketchup-gallery/sketchup-work-05.png"/>
+</div>
+</div>
+</div>
+<script>
+function openSketchupGallery(){
+  const modal=document.getElementById('sketchupGallery');
+  if(!modal) return;
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+}
+function closeSketchupGallery(){
+  const modal=document.getElementById('sketchupGallery');
+  if(!modal) return;
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape') closeSketchupGallery();
+});
+</script>
+<div aria-hidden="true" class="software-gallery-modal" id="revitGallery" onclick="if(event.target===this) closeRevitGallery()">
+<div class="software-gallery-panel">
+<button aria-label="Close" class="software-gallery-close" onclick="closeRevitGallery()" type="button">×</button>
+<div class="software-gallery-head">
+<span class="eyebrow">Revit — Selected Work</span>
+<h2>Architecture &amp; Structure Modelling Samples</h2>
+</div>
+<div class="software-gallery-grid">
+<img alt="Revit floor plan sample" src="assets/software/revit-gallery/revit-work-01.png"/>
+<img alt="Revit architectural model sample" src="assets/software/revit-gallery/revit-work-02.png"/>
+<img alt="Revit sectional model sample" src="assets/software/revit-gallery/revit-work-03.png"/>
+<img alt="Revit site plan sample" src="assets/software/revit-gallery/revit-work-04.png"/>
+<img alt="Revit architectural massing sample" src="assets/software/revit-gallery/revit-work-05.png"/>
+<img alt="Revit interior sectional model sample" src="assets/software/revit-gallery/revit-work-06.png"/>
+<img alt="Revit building model sample" src="assets/software/revit-gallery/revit-work-07.png"/>
+<img alt="Revit building exercise sample" src="assets/software/revit-gallery/revit-work-08.png"/>
+<img alt="Revit multi-building project sample" src="assets/software/revit-gallery/revit-work-09.png"/>
+</div>
+</div>
+</div>
+<script>
+function openRevitGallery(){
+  const modal=document.getElementById('revitGallery');
+  if(!modal) return;
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+}
+function closeRevitGallery(){
+  const modal=document.getElementById('revitGallery');
+  if(!modal) return;
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape') closeRevitGallery();
+});
+</script>
+<div aria-hidden="true" class="software-gallery-modal" id="twinmotionGallery" onclick="if(event.target===this) closeTwinmotionGallery()">
+<div class="software-gallery-panel">
+<button aria-label="Close" class="software-gallery-close" onclick="closeTwinmotionGallery()" type="button">×</button>
+<div class="software-gallery-head">
+<span class="eyebrow">Twinmotion — Selected Work</span>
+<h2>Architectural Visualization &amp; Rendering Samples</h2>
+</div>
+<div class="software-gallery-grid">
+<img alt="Twinmotion exterior landscape visualization" src="assets/software/twinmotion-gallery/twinmotion-work-01.png"/>
+<img alt="Twinmotion courtyard visualization" src="assets/software/twinmotion-gallery/twinmotion-work-02.png"/>
+<img alt="Twinmotion pool and exterior visualization" src="assets/software/twinmotion-gallery/twinmotion-work-03.png"/>
+<img alt="Twinmotion modern building exterior visualization" src="assets/software/twinmotion-gallery/twinmotion-work-04.png"/>
+<img alt="Architectural visualization source model" src="assets/software/twinmotion-gallery/twinmotion-work-05.png"/>
+</div>
+</div>
+</div>
+<script>
+function openTwinmotionGallery(){
+  const modal=document.getElementById('twinmotionGallery');
+  if(!modal) return;
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+}
+function closeTwinmotionGallery(){
+  const modal=document.getElementById('twinmotionGallery');
+  if(!modal) return;
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape') closeTwinmotionGallery();
+});
+</script>
+<script>
+function openMSProjectGallery(){document.getElementById('msProjectGallery').classList.add('open');document.body.style.overflow='hidden';}
+function closeMSProjectGallery(){document.getElementById('msProjectGallery').classList.remove('open');document.body.style.overflow='';}
+function openP6Gallery(){document.getElementById('p6Gallery').classList.add('open');document.body.style.overflow='hidden';}
+function closeP6Gallery(){document.getElementById('p6Gallery').classList.remove('open');document.body.style.overflow='';}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMSProjectGallery();closeP6Gallery();}});
+</script>
+<div aria-hidden="true" class="software-gallery-modal" id="p6Gallery" onclick="if(event.target===this) closeP6Gallery()"><div class="software-gallery-panel document-gallery-panel"><button class="software-gallery-close" onclick="closeP6Gallery()" type="button">×</button><div class="software-gallery-head"><h2>Primavera P6 — Project Schedule</h2></div><div class="direct-doc-stack"><article class="direct-doc-card"><h3>Ocean Front Villa — Primavera P6 Schedule</h3><iframe class="direct-pdf-frame" loading="lazy" src="documents/software_samples/primavera_p6_ocean_front_villa_schedule.pdf" title="Ocean Front Villa — Primavera P6 Schedule"></iframe></article></div></div></div><div aria-hidden="true" class="software-gallery-modal" id="msProjectGallery" onclick="if(event.target===this) closeMSProjectGallery()"><div class="software-gallery-panel document-gallery-panel"><button class="software-gallery-close" onclick="closeMSProjectGallery()" type="button">×</button><div class="software-gallery-head"><h2>Microsoft Project — Planning &amp; Scheduling Files</h2></div><div class="direct-doc-stack"><article class="direct-doc-card"><h3>Ocean Front Villa — Microsoft Project Schedule</h3><iframe class="direct-pdf-frame" loading="lazy" src="documents/software_samples/msproject_ocean_front_villa_schedule.pdf" title="Ocean Front Villa — Microsoft Project Schedule"></iframe></article><article class="direct-doc-card"><h3>Heineken C404 — Malt Silo Plan Schedule</h3><iframe class="direct-pdf-frame" loading="lazy" src="documents/software_samples/msproject_heineken_c404_malt_silo_schedule.pdf" title="Heineken C404 — Malt Silo Plan Schedule"></iframe></article><article class="direct-doc-card"><h3>Banyan Tree Residences — Progress S-Curve</h3><iframe class="direct-pdf-frame" loading="lazy" src="documents/software_samples/msproject_byt_progress_s_curve.pdf" title="Banyan Tree Residences — Progress S-Curve"></iframe></article></div></div></div>
+<script>
+function openP6Gallery(){
+  const m=document.getElementById('p6Gallery');
+  if(!m)return;
+  m.classList.add('open');
+  m.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+}
+function closeP6Gallery(){
+  const m=document.getElementById('p6Gallery');
+  if(!m)return;
+  m.classList.remove('open');
+  m.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+function openMSProjectGallery(){
+  const m=document.getElementById('msProjectGallery');
+  if(!m)return;
+  m.classList.add('open');
+  m.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+}
+function closeMSProjectGallery(){
+  const m=document.getElementById('msProjectGallery');
+  if(!m)return;
+  m.classList.remove('open');
+  m.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+</script>
+</body></html>
